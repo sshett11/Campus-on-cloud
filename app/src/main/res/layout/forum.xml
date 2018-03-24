@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+    <Button
+
+        android:text="B"
+        android:id="@+id/button2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/add_button_selector"
+        android:gravity="center"
+        android:stateListAnimator="@null"
+
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:elevation="10dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFF"
+        tools:ignore="HardcodedText,UnusedAttribute"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/button3"
+        android:layout_toStartOf="@+id/button3" />
+
+    <Button
+
+        android:text="R"
+        android:id="@+id/button3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/add_button_selector"
+        android:gravity="center"
+        android:stateListAnimator="@null"
+
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:elevation="10dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFF"
+        tools:ignore="HardcodedText,UnusedAttribute"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="73dp" />
+
+
+</RelativeLayout>
